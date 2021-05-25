@@ -1,0 +1,10 @@
+
+.clickHover{
+    color: darkblue;
+}
+.navigator-default{
+    color: darkmagenta;
+}
+.navigator-hover{/*点击样式放在默认的后面 这样权值更高*/
+    color: darkgreen;
+}

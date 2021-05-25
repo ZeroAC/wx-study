@@ -1,0 +1,17 @@
+<view class="container">
+	<text class="headLine">每周推荐</text>
+	<view class="movie-list">
+		<view class="movie-item" wx:for="{{weekelyMovie}}" wx:key="name">
+			<image src="{{item.imagePath}}" mode="aspectFit" />
+			<view class="movie-text">
+				<text>
+				{{item.name}}
+				</text>
+				<text>
+				{{item.comment}}
+				</text>
+			</view>
+		</view>
+	</view>
+</view>
+

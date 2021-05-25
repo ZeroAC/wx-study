@@ -1,0 +1,22 @@
+<view class="container">
+	<image src="https://images.freeimages.com/images/large-previews/383/the-home-of-the-candle-1-1425911.jpg" class="image-st" />
+	<view class="content">
+		<text style="font-style:bold;">电影周周看</text>
+		<view class="navInline">
+			<text selectable="true">我 </text>
+			<navigator
+			 class="navigator-default"
+			 url="../logs/logs"
+			 hover-class="navigator-hover"
+			 open-type="switchTab"
+			>
+				每周推荐
+			</navigator>
+			<text>一部好电影</text>
+		</view>
+
+		<text>微博为:xxxxxxxx</text>
+	</view>
+
+</view>
+

@@ -1,0 +1,28 @@
+<view class="container">
+	<text class="headLine">每周推荐</text>
+	<swiper class="movie-swiper" indicator-dots="{{true}}" model:current="{{currentSelect}}">
+		<swiper-item 
+        id="moive-item"
+        class="movie-item" 
+        wx:for="{{weekelyMovie}}" 
+        wx:key="name"
+        bindtap = "toDetail"
+        data-movie-id = "{{item.id}}"
+        >
+			<text id = "backNow" class="btnBackNow" catchtap = "toBackNow" wx:if="{{index != (weekelyMovie.length-1)}}">返回本周</text>
+			<image src="{{item.imagePath}}" mode="aspectFit" style="width:480rpx" />
+			<view class="movie-text">
+				<text style="color:#037">
+                    第{{index+1}}周
+                </text>
+				<text>
+                    {{item.name}}
+                </text>
+				<text>
+				    {{item.comment}}
+				</text>
+			</view>
+		</swiper-item>
+	</swiper>
+</view>
+

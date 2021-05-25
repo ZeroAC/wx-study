@@ -1,0 +1,48 @@
+{
+    "pages": [
+        "pages/swiper/swiper",
+        "pages/logs/logs",
+        "pages/index/index",
+        "pages/detail/detail"
+    ],
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "color": "#333",
+        "selectedColor": "#515",
+        "backgroundColor": "darkgray",
+        "position":"bottom",
+        "borderStyle":"white",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "每周推荐",
+                "iconPath": "./img/导航-1.png",
+                "selectedIconPath": "./img/导航-2.png"
+            },
+            {
+                "pagePath": "pages/swiper/swiper",
+                "text": "轮播图",
+                "iconPath": "./img/导航-1.png",
+                "selectedIconPath": "./img/导航-2.png"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "text": "关于",
+                "iconPath": "./img/user-1.png",
+                "selectedIconPath": "./img/user-2.png"
+            }
+        ]
+    },
+    "window": {
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "电影周周看",
+        "navigationStyle": "default",
+        "backgroundColor": "#ffffff",
+        "backgroundTextStyle": "dark",
+        "backgroundColorTop": "#ffffff",
+        "backgroundColorBottom": "darkgray",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50
+    }
+}

@@ -1,0 +1,29 @@
+.container{
+    margin: 0rpx;
+    padding: 0rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    background-color:darkgray;
+    height: 1335rpx;
+    width: 750rpx;
+}
+.image-st{
+    width: 100%;
+}
+.content{
+    height: 854rpx;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 52rpx;
+    font-weight: bold;
+}
+.navInline{
+    display: flex;
+}
+
+

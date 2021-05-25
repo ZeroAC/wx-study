@@ -1,0 +1,8 @@
+<view class="container" >
+    <text class="headLine" selectable="false" space="false" decode="false">
+        详情页面 id = {{mId}}
+    </text>
+    <text>
+        {{movieDetail}}
+    </text>
+</view>
